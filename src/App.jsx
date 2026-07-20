@@ -3,17 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import AppRoutes from './routes/AppRoutes'
+
 
 function App() {
  
 
   return (
     <>
-       <div className="flex items-center justify-center h-screen bg-blue-500">
-      <h1 className="text-5xl font-bold text-white">
-        React E-Commerce
-      </h1>
-    </div>
+      <AppRoutes/>
+      
     </>
   )
 }
